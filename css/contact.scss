@@ -1,0 +1,119 @@
+// ini contact
+.sec-contact {
+  display: flex;
+  width: 1400px;
+  padding: 30px;
+  margin: 0 auto;
+  gap: 100px;
+  justify-content: space-between;
+  h1 {
+    color: #000;
+    font-family: "Inter";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+  }
+  p {
+    color: #4b5563;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  h3 {
+    margin-top: 60px;
+    color: #000;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  ul {
+    list-style: none;
+  }
+
+  ul,
+  li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    a {
+      color: #000000;
+      &:hover {
+        color: lightgrey;
+      }
+    }
+  }
+}
+
+// formulir
+.formulir {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 28px;
+  line-height: 50px;
+  padding-bottom: 150px;
+  .isiemail {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    #email {
+      margin-top: 5px;
+      width: 563px;
+      height: 46px;
+      background: #f7f7f7;
+      opacity: 0.6;
+    }
+  }
+  //option
+  .isiproject {
+    color: #000;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    #project {
+      margin-top: 5px;
+      width: 563px;
+      height: 46px;
+      background: #f7f7f7;
+      opacity: 0.6;
+    }
+  }
+}
+// textarea
+.pesan {
+  color: #000;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 400;
+
+  #note {
+    width: 563px;
+    height: 165px;
+    background: #f7f7f7;
+  }
+}
+// button
+.tombolSubmit {
+  border-radius: 20px;
+  background: #059669;
+  display: flex;
+  padding: 13px 255px;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 auto;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #026243;
+  }
+}

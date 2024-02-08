@@ -1,0 +1,30 @@
+// ini landing page
+#judulAbout {
+  color: #000;
+  font-family: "Inter";
+  text-align: center;
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 600px;
+}
+.sec-about {
+  display: flex;
+  width: 1400px;
+  padding: 20px;
+  padding-bottom: 200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    color: #000;
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px; /* 145% */
+  }
+  ul {
+    margin-left: 25px;
+  }
+}

@@ -1,0 +1,129 @@
+#judul {
+  color: #000;
+  font-family: "Inter";
+  text-align: center;
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 600px;
+}
+
+// prices
+.pricess-card {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px auto;
+
+  h1 {
+    color: #059669;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    span {
+      color: #848199;
+      font-family: "Poppins";
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+
+  ul,
+  li {
+    list-style: none;
+    margin: 10px;
+  }
+  .prices1 {
+    width: 300px;
+    height: 450px;
+    border-radius: 30px;
+    border: 1px solid #979797;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 60px;
+  }
+  .prices2 {
+    width: 300px;
+    height: 450px;
+    border-radius: 30px;
+    border: 1px solid #979797;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 60px;
+  }
+}
+.prices3 {
+  width: 300px;
+  height: 450px;
+  border-radius: 30px;
+  border: 1px solid #979797;
+  background: #fff;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+  h3 {
+    display: inline-block;
+    position: absolute;
+    bottom: 480px;
+    left: 200px;
+    outline: 12px solid #34d399;
+    border-radius: 25px;
+    background: #34d399;
+    color: white;
+    font-size: 12px;
+  }
+}
+.btn-price {
+  margin: 0 auto;
+  border-radius: 24px;
+  background: #059669;
+  width: 232px;
+  height: 44px;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #026243;
+  }
+}
+
+.btn-price1 {
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 24px;
+  background: #059669;
+  width: 232px;
+  height: 44px;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: #026243;
+  }
+}
